@@ -1,7 +1,7 @@
 import groovy.time.*
 public class hello {
   // testing 2 different ways to fizzbuzz
-    static int start = 1
+  static int start = 1
   static int end = 100
   static int fizz = 3
   static int buzz = 5
