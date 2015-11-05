@@ -1,5 +1,5 @@
 import groovy.time.*
-public class hello {
+public class fizzBuzz {
   // testing 2 different ways to fizzbuzz
     static int start = 1
   static int end = 100
