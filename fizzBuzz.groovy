@@ -8,7 +8,7 @@ public class fizzBuzz {
 
   static def main(args) {
     def timeStart = new Date()
-    (start..end).each{println "${it%fizz?'':'Fizz'}${it%buzz?'':'Buzz'}" ?: it }
+    (start..end).each{println "${it % fizz ?'':'Fizz'}${it % buzz?'':'Buzz'}" ?: it }
     def timeStop = new Date()
     TimeDuration duration = TimeCategory.minus(timeStop, timeStart)
     println(duration)
