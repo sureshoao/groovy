@@ -1,0 +1,18 @@
+public class FizzBuzz {
+// testing 2 different ways to fizzbuzz
+    static int start = 1
+    static int end = 100
+    static int fizz = 3
+    static int buzz = 5
+
+    static def main(args) {
+        (start..end).each{println "${it%fizz?'':'Fizz'}${it%buzz?'':'Buzz'}" ?: it }
+        1.upto(3, {println("")})
+        for (int i = start; i <= end; i++) {
+          if (i % fizz == 0) print("Fizz")
+          if (i % buzz == 0) print("Buzz")
+          if (i % fizz != 0 && i % buzz != 0) print(i)
+          print("\n")
+        }
+    }
+}
