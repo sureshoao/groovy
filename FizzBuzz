@@ -25,3 +25,4 @@ public class hello {
     duration = TimeCategory.minus(timeStop, timeStart)
     println(duration)
   }
+}
